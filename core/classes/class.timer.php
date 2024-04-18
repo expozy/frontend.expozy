@@ -2,7 +2,7 @@
 if (!defined("_VALID_PHP")) { die('Direct access to this location is not allowed.'); }
 
 /** =========================================================
- * Class Core
+ * Class Timer
  * ========================================================== */
 class Timer{
 	public $start;

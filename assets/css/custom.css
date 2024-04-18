@@ -6,6 +6,9 @@
   position: fixed;
   align-items: flex-end;
   flex-direction: column-reverse;
+  top: 20px;
+  right: 20px;
+  width: fit-content;
 }
 
 .notice {

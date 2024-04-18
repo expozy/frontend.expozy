@@ -3,13 +3,8 @@
 if (!defined("_VALID_PHP")) { die('Direct access to this location is not allowed.'); }
  
 
-
-
-
 /** =========================================================
-
  * Class Api
-
  * ========================================================== */
 
 class Api

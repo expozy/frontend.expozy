@@ -2,7 +2,7 @@
 if (!defined("_VALID_PHP")) { die('Direct access to this location is not allowed.'); }
 
 /** =========================================================
- * Class Core
+ * Class FrontCore
  * ========================================================== */
 class FrontCore
 {
@@ -11,17 +11,10 @@ class FrontCore
 
 	function __construct()
 	{
-
 		$this->get_settings();
 		$this->get_id();
 
 	}
-
-
-
-
-
-	////////////////////////////////////////////////////////////////
 
 
 	/** =========================================================
@@ -60,7 +53,6 @@ class FrontCore
 
 	public function get_web(){
 		$this->web = Api::get()->settings_web();
-		
 	}
 
 
